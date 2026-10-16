@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
           return value.getByteCount() / 1024;
         }
       };
-  LinearLayout root, content, results, nav, previewPanel;
+  LinearLayout root, content, results, nav, previewPanel, libraryHero;
   TextView count, trimLabel;
   VideoView video;
   ImageView still;
@@ -110,6 +110,7 @@ public class MainActivity extends Activity {
 
   void build() {
     stopPlayback();
+    libraryHero = null;
     wide = getResources().getConfiguration().screenWidthDp >= 840;
     root = col();
     root.setBackgroundColor(BG);
@@ -130,6 +131,10 @@ public class MainActivity extends Activity {
             bottom = insets.getSystemWindowInsetBottom();
           }
           root.setPadding(dp(20) + left, top + dp(12), dp(20) + right, bottom);
+          boolean typing = Build.VERSION.SDK_INT >= 30
+              && insets.isVisible(WindowInsets.Type.ime()) && !wide && page.equals("Library");
+          if (libraryHero != null) libraryHero.setVisibility(typing ? View.GONE : View.VISIBLE);
+          if (nav != null) nav.setVisibility(typing ? View.GONE : View.VISIBLE);
           return insets;
         });
     setContentView(root);
@@ -165,14 +170,16 @@ public class MainActivity extends Activity {
   }
 
   void libraryView() {
+    libraryHero = col();
     LinearLayout heading = row();
     TextView title = text("Your media, in focus.", wide ? 30 : 26, WHITE);
     title.setTypeface(null, Typeface.BOLD);
     grow(heading, title);
-    content.addView(heading);
-    spacer(content, 5);
-    content.addView(text("Find the right shot. Keep the story moving.", 13, MUTED));
-    spacer(content, 18);
+    libraryHero.addView(heading);
+    spacer(libraryHero, 5);
+    libraryHero.addView(text("Find the right shot. Keep the story moving.", 13, MUTED));
+    spacer(libraryHero, 18);
+    content.addView(libraryHero);
     LinearLayout split = row();
     split.setGravity(Gravity.TOP);
     content.addView(split, new LinearLayout.LayoutParams(-1, 0, 1));
