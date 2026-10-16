@@ -1,0 +1,15 @@
+.gradle/
+.local/
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.apk
+*.aab
+**/build/
+analysis/extracted/
+analysis/rea-*/
+analysis/rea-search-evidence.json
+analysis/snippets/
+*.log
+deliverables/

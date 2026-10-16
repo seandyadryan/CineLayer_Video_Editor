@@ -1,0 +1,128 @@
+[
+  {
+    "path": "store/icon/icon-512.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 243641,
+    "sha256": "79ecd35105f9fc36438b407a182265102a4c043bb0c942d4d93c1282b3fc7eaa"
+  },
+  {
+    "path": "store/feature-graphic.png",
+    "width": 1024,
+    "height": 500,
+    "bytes": 570661,
+    "sha256": "fce38d2a0120198bc963ded5068ecab1bba6bee3a4a9158118bb2f5b35667886"
+  },
+  {
+    "path": "store/screenshots/phone/01-library.png",
+    "width": 1080,
+    "height": 1920,
+    "bytes": 581709,
+    "sha256": "0499c02f8d585d018e4bd5ae7706ae3f3c1eda4ffeb1d55839ac3bd3ea4999a2"
+  },
+  {
+    "path": "store/screenshots/phone/02-search.png",
+    "width": 1080,
+    "height": 1920,
+    "bytes": 537228,
+    "sha256": "f03e85e870f88aee31251854c41b53d55d4df2e6452c305fcee0ec3cf2cf1c13"
+  },
+  {
+    "path": "store/screenshots/phone/03-trim.png",
+    "width": 1080,
+    "height": 1920,
+    "bytes": 99925,
+    "sha256": "bf5b57a079581266762b1a86cad981a3a0eef91259116f564fe4b550fe1cc084"
+  },
+  {
+    "path": "store/screenshots/phone/04-favorites.png",
+    "width": 1080,
+    "height": 1920,
+    "bytes": 315159,
+    "sha256": "50f0bcd287e85afe4afb7a5f1e6d193ba227dd6717e36457234006fc69aed6a0"
+  },
+  {
+    "path": "store/screenshots/desktop/01-library.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 769447,
+    "sha256": "06a8ea65858b1eabae0a0cbc728c1a2649f54632778b8bc977ce52300543453a"
+  },
+  {
+    "path": "store/screenshots/desktop/02-search.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 704020,
+    "sha256": "0c7b826f71be078ba0375394f4ec2eff2b33359ffd448699f7ce356301668879"
+  },
+  {
+    "path": "store/screenshots/desktop/03-trim.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 185857,
+    "sha256": "9f9137f27ea0081ec51dfc6dcbde449b35a9d235e5bf6a8ede599b4c55ce847a"
+  },
+  {
+    "path": "store/screenshots/desktop/04-favorites.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 657779,
+    "sha256": "5206d3a310649e0c884872ed571aa547abdf443a2dac022f82421a653354eb55"
+  },
+  {
+    "path": "store/screenshots/tablet-7/01-library.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1173854,
+    "sha256": "cadda1dbb18c7bfd960e1b1adee6e0765fb18704200c5867bba9300bcec31365"
+  },
+  {
+    "path": "store/screenshots/tablet-7/02-search.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1147896,
+    "sha256": "8eb6ed66a15c06311445a4a0bc264d0c34ab8a48affc8a4fbc2969b8c4c37650"
+  },
+  {
+    "path": "store/screenshots/tablet-7/03-trim.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 225156,
+    "sha256": "98e011266da890b8617f827474f8d5e5fb30a2507bad70df8cc3dc5d9caf2660"
+  },
+  {
+    "path": "store/screenshots/tablet-7/04-favorites.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1037676,
+    "sha256": "7143c867fdc7571edd1d10f70b119984a3eb0e27d035c0d58a4fb88fb9ff5927"
+  },
+  {
+    "path": "store/screenshots/tablet-10/01-library.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 1015577,
+    "sha256": "0df82f097f648cb557d77e51bc7d90680d29bb4f0e66343d7e0f26b56032e233"
+  },
+  {
+    "path": "store/screenshots/tablet-10/02-search.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 965022,
+    "sha256": "ace88b0cdd81efee8b702178d08e96fd98add8bfb5a536ac7a8bcebd3cdcfafa"
+  },
+  {
+    "path": "store/screenshots/tablet-10/03-trim.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 214842,
+    "sha256": "6224a0ab0cbfa98caa2fb5f5663f9fa5d9a54278f823b08bc9c464d24ee0b927"
+  },
+  {
+    "path": "store/screenshots/tablet-10/04-favorites.png",
+    "width": 1920,
+    "height": 1080,
+    "bytes": 880602,
+    "sha256": "968c9db270ca27737efdff598f1dc9c6f24f00bad81f75251987af789526ee6f"
+  }
+]

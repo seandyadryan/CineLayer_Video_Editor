@@ -1,0 +1,33 @@
+CineLayer Video Editor helps you find the right clip and prepare a simple video cut, right on your Android device.
+
+Bring selected videos, audio files, and images into one focused media library. Search filenames, your notes, color tags, frame rates, and aspect ratios. Narrow the view by source or media type, mark favorites, and sort by date to get back to the material you need.
+
+FIND YOUR MEDIA
+- Import files you choose through the Android system file picker.
+- Search filenames and notes, exact color-tag names, frame rates, and aspect ratios.
+- Switch between all sources, your imports, and included samples.
+- Filter videos, audio, and images.
+- Add notes and color tags from the preview menu.
+- Keep useful items close with favorites.
+- Sort your library by date.
+
+PREVIEW BEFORE YOU CUT
+Open an image, listen to audio, or preview a video before choosing your next step. Media support depends on the formats and codecs available on your device.
+
+Try the included sample clips, ambient audio, and AI-generated coastal image. Included assets are marked Sample, so they are easy to distinguish from your imported files.
+
+TRIM AND SAVE
+Choose a start and end time for a video, then save a trimmed MP4 to a location you select. Trimming uses existing keyframes, so the saved cut may begin slightly before the selected start time. Supported video and audio tracks are copied without re-encoding; export compatibility depends on the source file and device.
+
+WORK LOCALLY
+Search, previews, and trimming run on your device. The app does not upload your media and includes no accounts, advertising, or analytics. Android's document picker may show cloud storage providers; any transfer through a provider you choose follows that provider's terms.
+
+YOUR LIBRARY, YOUR CHOICE
+CineLayer remembers library entries, notes, color tags, favorites, and saved trim information locally. Removing an item from the library does not delete the original media file. Exported videos remain in the save location you choose.
+
+This release focuses on media search, organization, previews, and individual video trims. It does not include a multitrack timeline, transitions, effects, or video compositing.
+
+Requires Android 9 or later.
+
+Support: seandyadryan2@gmail.com
+Developer: PT Deploy Dulu Pulang Nanti
