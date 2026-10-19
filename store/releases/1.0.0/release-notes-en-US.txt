@@ -1,0 +1,6 @@
+Initial release of CineLayer.
+- Import videos, audio and images.
+- Search filenames, notes, color tags and available metadata.
+- Filter media and save favorites.
+- Preview media and trim individual videos to MP4.
+- Work locally without accounts, ads or analytics.

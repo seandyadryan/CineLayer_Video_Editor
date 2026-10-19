@@ -13,3 +13,4 @@ analysis/rea-search-evidence.json
 analysis/snippets/
 *.log
 deliverables/
+/tools/node_modules/

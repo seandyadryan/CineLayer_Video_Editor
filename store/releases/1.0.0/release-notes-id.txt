@@ -1,0 +1,6 @@
+Rilis perdana CineLayer.
+- Impor video, audio, dan gambar.
+- Cari nama file, catatan, tag warna, dan metadata yang tersedia.
+- Filter media dan simpan favorit.
+- Pratinjau media dan potong satu video menjadi MP4.
+- Bekerja secara lokal tanpa akun, iklan, atau analitik.

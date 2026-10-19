@@ -1,0 +1,70 @@
+"locale","title","short_description","full_description"
+"en-US","CineLayer Video Editor","Find your clips, organize your media, and trim videos on your device.","CineLayer Video Editor helps you find the right clip and prepare a simple video cut, right on your Android device.
+
+Bring selected videos, audio files, and images into one focused media library. Search filenames, your notes, color tags, frame rates, and aspect ratios. Narrow the view by source or media type, mark favorites, and sort by date to get back to the material you need.
+
+FIND YOUR MEDIA
+- Import files you choose through the Android system file picker.
+- Search filenames and notes, exact color-tag names, frame rates, and aspect ratios.
+- Switch between all sources, your imports, and included samples.
+- Filter videos, audio, and images.
+- Add notes and color tags from the preview menu.
+- Keep useful items close with favorites.
+- Sort your library by date.
+
+PREVIEW BEFORE YOU CUT
+Open an image, listen to audio, or preview a video before choosing your next step. Media support depends on the formats and codecs available on your device.
+
+Try the included sample clips, ambient audio, and AI-generated coastal image. Included assets are marked Sample, so they are easy to distinguish from your imported files.
+
+TRIM AND SAVE
+Choose a start and end time for a video, then save a trimmed MP4 to a location you select. Trimming uses existing keyframes, so the saved cut may begin slightly before the selected start time. Supported video and audio tracks are copied without re-encoding; export compatibility depends on the source file and device.
+
+WORK LOCALLY
+Search, previews, and trimming run on your device. The app does not upload your media and includes no accounts, advertising, or analytics. Android's document picker may show cloud storage providers; any transfer through a provider you choose follows that provider's terms.
+
+YOUR LIBRARY, YOUR CHOICE
+CineLayer remembers library entries, notes, color tags, favorites, and saved trim information locally. Removing an item from the library does not delete the original media file. Exported videos remain in the save location you choose.
+
+This release focuses on media search, organization, previews, and individual video trims. It does not include a multitrack timeline, transitions, effects, or video compositing.
+
+Requires Android 9 or later.
+
+Support: seandyadryan2@gmail.com
+Developer: PT Deploy Dulu Pulang Nanti
+
+App interface: English."
+"id","CineLayer Video Editor","Temukan klip, kelola media, dan potong video langsung di perangkat Anda.","CineLayer Video Editor membantu Anda menemukan klip yang tepat dan menyiapkan potongan video sederhana langsung di perangkat Android.
+
+Kumpulkan video, audio, dan gambar yang Anda pilih dalam satu pustaka media. Cari berdasarkan nama file, catatan, tag warna, frame rate, dan rasio aspek. Batasi tampilan menurut sumber atau jenis media, tandai favorit, dan urutkan berdasarkan tanggal.
+
+TEMUKAN MEDIA ANDA
+- Impor file pilihan melalui pemilih file bawaan Android.
+- Cari nama file dan catatan, nama tag warna secara utuh, frame rate, serta rasio aspek yang tersedia.
+- Pilih semua sumber, file impor, atau sampel bawaan.
+- Filter video, audio, dan gambar.
+- Tambahkan catatan dan tag warna melalui menu pratinjau.
+- Tandai media favorit agar mudah ditemukan kembali.
+- Urutkan pustaka berdasarkan tanggal.
+
+PRATINJAU SEBELUM MEMOTONG
+Buka gambar, dengarkan audio, atau tonton video sebelum menentukan langkah berikutnya. Dukungan media bergantung pada format dan codec yang tersedia di perangkat.
+
+Coba klip, audio, dan gambar pantai buatan AI yang disertakan. Aset bawaan diberi label Sample agar mudah dibedakan dari file impor Anda.
+
+POTONG DAN SIMPAN
+Pilih waktu awal dan akhir video, lalu simpan hasilnya sebagai MP4 ke lokasi pilihan Anda. Pemotongan mengikuti keyframe, sehingga hasilnya dapat dimulai sedikit sebelum titik awal yang dipilih. Trek video dan audio yang didukung disalin tanpa pengodean ulang. Kompatibilitas ekspor bergantung pada file sumber dan perangkat.
+
+BEKERJA SECARA LOKAL
+Pencarian, pratinjau, dan pemotongan berjalan di perangkat. Aplikasi tidak mengunggah media Anda dan tidak menggunakan akun, iklan, atau analitik. Pemilih file Android dapat menampilkan penyedia penyimpanan cloud. Transfer melalui penyedia yang Anda pilih mengikuti ketentuan penyedia tersebut.
+
+PUSTAKA ANDA, PILIHAN ANDA
+CineLayer menyimpan entri pustaka, catatan, tag warna, favorit, dan informasi pemotongan secara lokal. Menghapus entri dari pustaka tidak menghapus file media asli. Video hasil ekspor tetap tersimpan di lokasi yang Anda pilih.
+
+Rilis ini berfokus pada pencarian, pengelolaan, pratinjau media, dan pemotongan satu video. Belum tersedia timeline multitrack, transisi, efek, atau komposisi video.
+
+Memerlukan Android 9 atau lebih baru.
+Bahasa antarmuka aplikasi: Inggris.
+
+Dukungan: seandyadryan2@gmail.com
+Developer: PT Deploy Dulu Pulang Nanti"

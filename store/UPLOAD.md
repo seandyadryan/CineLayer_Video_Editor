@@ -14,6 +14,9 @@ All listing copy and artwork are in English. The app name is CineLayer, package 
 | 10-inch tablet screenshots | `store/screenshots/tablet-10/` — four 1920×1080 PNGs |
 | Privacy policy | Host `index.html` at a public HTTPS URL, then enter that URL |
 | Release bundle | `deliverables/CineLayer-1.0.0.aab` |
+| AI translation import | `store/translations/CineLayer-Play-Store-Translations.csv` — English and Indonesian |
+| Release name | `store/releases/1.0.0/release-name.txt` |
+| Release notes | `store/releases/1.0.0/play-console-en-US.txt` or the matching language file |
 
 Use the AAB for a Play release; the signed APK is provided for direct installation/testing. Do not upload the reference APK, keystore, password file or forensic evidence as listing materials.
 

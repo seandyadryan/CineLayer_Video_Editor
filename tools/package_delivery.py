@@ -15,6 +15,8 @@ for source,target in [
 assets=[root/'store/icon/icon-512.png',root/'store/feature-graphic.png',root/'index.html']
 assets+=list((root/'store/listing').glob('*.txt'))
 assets+=list((root/'store/screenshots').glob('*/*.png'))
+assets+=list((root/'store/translations').glob('*'))
+assets+=list((root/'store/releases').glob('*/*.txt'))
 assets+=[root/'store'/name for name in ['asset-manifest.json','UPLOAD.md','compliance-notes.md','artwork-provenance.md']]
 with zipfile.ZipFile(destination/'CineLayer-Play-Store-Assets.zip','w',zipfile.ZIP_DEFLATED) as archive:
     for path in sorted(assets):archive.write(path,path.relative_to(root).as_posix())
