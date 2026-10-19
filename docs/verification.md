@@ -4,11 +4,15 @@ Run date: 16 October 2026, Asia/Jakarta.
 
 Commands and device checks are reproducible from README.md and the repository test sources.
 
+## Package identity update — 19 October 2026
+
+The application ID, namespace, Java packages, instrumentation runner and source paths now use `com.deploydulupulangnanti.cinelayer`. Commands in this document use the current identity; the 16 October device observations below predate this rename. The rename was verified by successful release APK/AAB and test-APK builds, Android lint, and all 15 JVM search checks. The compiled APK manifest and AAB manifest contain the new ID, and neither release contains the old application-class namespace. Release signing still uses the original keystore and certificate. No additional device run was performed for this package-only change.
+
 ## Completed checks
 
 - Dependency-free JVM suite: **15 search contract checks passed**. This covers case/whitespace handling, literal punctuation, combined type/favorite/source filters, no-match state, ordering, source non-mutation, Turkish-default-locale stability, metadata matching and exact color-tag matching.
 - `assembleDebug assembleDebugAndroidTest assembleRelease bundleRelease lint --offline --console=plain --max-workers=2`: successful. Android lint: **0 errors, 9 warnings** (full-bleed legacy launcher shape and English UI string-resource recommendations).
-- Device runner: `adb shell am instrument -w com.ptdeploy.cinelayer.test/com.ptdeploy.cinelayer.SmokeInstrumentation` passed on Android 15 / API 35, Google APIs x86_64 emulator. It opened the actual Activity, loaded four bundled samples, verified reactive and superseding queries, searched aspect metadata, selected a clip, and remuxed a real MP4.
+- Device runner: `adb shell am instrument -w com.deploydulupulangnanti.cinelayer.test/com.deploydulupulangnanti.cinelayer.SmokeInstrumentation` passed on Android 15 / API 35, Google APIs x86_64 emulator. It opened the actual Activity, loaded four bundled samples, verified reactive and superseding queries, searched aspect metadata, selected a clip, and remuxed a real MP4.
 - Trim test: requested 2,100–6,500 ms, aligned the start to the preceding 2,000 ms keyframe, verified output duration approximately 4,500 ms, retained two audio/video tracks, normalized first video timestamp to zero, decoded a frame, and verified the original SHA-256 was unchanged. Temporary test output was removed.
 - System document-provider UI integration: selected `Import_Check.mp4` from Downloads using ACTION_OPEN_DOCUMENT; library grew from four to five items and opened the imported entry. Chose Export MP4, selected Downloads through ACTION_CREATE_DOCUMENT, and received the completion dialog. The saved file was 5,193,698 bytes and FFmpeg decoded its audio/video without errors. This checks real content-URI input and output through Android's provider rather than only direct file URIs.
 - Soft keyboard integration: tapped the actual search field and typed `coast` through Android input. The field had focus, two matching items were returned, and both result cards including filenames/favorites were visible above the keyboard. On phones the introductory heading and bottom navigation collapse while typing and restore when the keyboard closes; query state is retained.

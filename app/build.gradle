@@ -3,9 +3,9 @@ def signingFile = rootProject.file('keystore.properties')
 def signing = new Properties()
 if (signingFile.exists()) signingFile.withInputStream { signing.load(it) }
 android {
-    namespace 'com.ptdeploy.cinelayer'
+    namespace 'com.deploydulupulangnanti.cinelayer'
     compileSdk 36
-    defaultConfig { applicationId 'com.ptdeploy.cinelayer'; minSdk 28; targetSdk 36; versionCode 1; versionName '1.0.0'; testInstrumentationRunner 'com.ptdeploy.cinelayer.SmokeInstrumentation' }
+    defaultConfig { applicationId 'com.deploydulupulangnanti.cinelayer'; minSdk 28; targetSdk 36; versionCode 1; versionName '1.0.0'; testInstrumentationRunner 'com.deploydulupulangnanti.cinelayer.SmokeInstrumentation' }
     signingConfigs {
         release { if (signingFile.exists()) { storeFile file(signing['storeFile']); storePassword signing['storePassword']; keyAlias signing['keyAlias']; keyPassword signing['keyPassword'] } }
     }

@@ -49,13 +49,13 @@ keyAlias=cinelayer
 keyPassword=YOUR_LOCAL_PASSWORD
 ```
 
-The requested JKS was created at that path. Keep its password and backups outside version control. Release outputs are `app/build/outputs/apk/release/app-release.apk` and `app/build/outputs/bundle/release/app-release.aab`. The application ID is `com.ptdeploy.cinelayer`; confirm its availability before first Play publication. Version is 1.0.0 (code 1).
+The requested JKS was created at that path. Keep its password and backups outside version control. Release outputs are `app/build/outputs/apk/release/app-release.apk` and `app/build/outputs/bundle/release/app-release.aab`. The application ID is `com.deploydulupulangnanti.cinelayer`; confirm its availability before first Play publication. Version is 1.0.0 (code 1).
 
 ## Verification
 
 ```powershell
 New-Item -ItemType Directory -Force .local/tests
-javac -d .local/tests app/src/main/java/com/ptdeploy/cinelayer/MediaItem.java app/src/main/java/com/ptdeploy/cinelayer/SearchEngine.java tests/SearchEngineTest.java
+javac -d .local/tests app/src/main/java/com/deploydulupulangnanti/cinelayer/MediaItem.java app/src/main/java/com/deploydulupulangnanti/cinelayer/SearchEngine.java tests/SearchEngineTest.java
 java -cp .local/tests SearchEngineTest
 .\gradlew.bat connectedDebugAndroidTest
 ```

@@ -13,12 +13,12 @@ try {
         & $Adb -s $Device shell wm density $capture.Density
         & $Adb -s $Device shell input keyevent 224
         & $Adb -s $Device shell wm dismiss-keyguard
-        & $Adb -s $Device shell am instrument -w -e capture $capture.Name 'com.ptdeploy.cinelayer.test/com.ptdeploy.cinelayer.SmokeInstrumentation'
+        & $Adb -s $Device shell am instrument -w -e capture $capture.Name 'com.deploydulupulangnanti.cinelayer.test/com.deploydulupulangnanti.cinelayer.SmokeInstrumentation'
         if ($LASTEXITCODE -ne 0) { throw "Capture failed for $($capture.Name)" }
         $destination = Join-Path 'store/screenshots' $capture.Name
         New-Item -ItemType Directory -Force $destination | Out-Null
         foreach ($screen in @('01-library', '02-search', '03-trim', '04-favorites')) {
-            & $Adb -s $Device pull "/sdcard/Android/data/com.ptdeploy.cinelayer/files/screenshots/$($capture.Name)/$screen.png" (Join-Path $destination "$screen.png")
+            & $Adb -s $Device pull "/sdcard/Android/data/com.deploydulupulangnanti.cinelayer/files/screenshots/$($capture.Name)/$screen.png" (Join-Path $destination "$screen.png")
             if ($LASTEXITCODE -ne 0) { throw "Screenshot pull failed for $screen" }
         }
     }

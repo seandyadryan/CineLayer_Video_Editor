@@ -1,6 +1,6 @@
 # Play Store upload guide
 
-All listing copy and artwork are in English. The app name is CineLayer, package `com.ptdeploy.cinelayer`, version 1.0.0 (code 1), developer **PT Deploy Dulu Pulang Nanti**, support **seandyadryan2@gmail.com**.
+All listing copy and artwork are in English. The app name is CineLayer, package `com.deploydulupulangnanti.cinelayer`, version 1.0.0 (code 1), developer **PT Deploy Dulu Pulang Nanti**, support **seandyadryan2@gmail.com**.
 
 | Play Console field | File / folder |
 |---|---|
